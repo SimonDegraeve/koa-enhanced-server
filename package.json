@@ -1,0 +1,40 @@
+{
+  "name": "koa-enhanced-server",
+  "version": "0.0.0",
+  "description": "Koa server with graceful shutdown",
+  "license": "MIT",
+  "author": "Simon Degraeve <simon.degraeve@gmail.com>",
+  "repository": "github:SimonDegraeve/koa-enhanced-server",
+  "homepage": "https://github.com/SimonDegraeve/koa-enhanced-server#readme",
+  "bugs": "https://github.com/SimonDegraeve/koa-enhanced-server/issues",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "scripts": {
+    "lint": "kode lint",
+    "test": "kode test",
+    "build": "kode build",
+    "report-coverage": "kode report-coverage",
+    "release": "kode release"
+  },
+  "dependencies": {
+    "async-exit-hook": "^1.1.1",
+    "http-shutdown": "^1.1.0"
+  },
+  "devDependencies": {
+    "kode": "^2.4.5"
+  },
+  "babel": {
+    "presets": [
+      "saya"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "saya"
+  },
+  "jest": {
+    "preset": "jest-preset-saya"
+  }
+}
