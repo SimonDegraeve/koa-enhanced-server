@@ -22,6 +22,8 @@ import Application from 'koa';
 import createServer from 'koa-enhanced-server';
 
 const app = new Application();
+app.onExit = () => Promise.resolve();
+
 const server = createServer(app);
 const httpsServer = createServer(app, { 
   https: true,
