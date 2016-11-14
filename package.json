@@ -1,6 +1,6 @@
 {
   "name": "koa-enhanced-server",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Koa server with graceful shutdown",
   "license": "MIT",
   "author": "Simon Degraeve <simon.degraeve@gmail.com>",
